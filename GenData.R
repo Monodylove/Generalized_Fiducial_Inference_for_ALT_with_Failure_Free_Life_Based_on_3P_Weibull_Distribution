@@ -1,3 +1,7 @@
+phi <- function(x){
+  1/x #Arrhenuis
+}
+
 Gendata <- function(N,R,S,m,lambda,delta,b){
   k <- length(N) #baseline set as 0, k stands for stress level
   Sample <- matrix(NA,ncol = 4)
