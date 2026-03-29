@@ -5,7 +5,6 @@ NGF_model <- stan_model(file = 'NGF.stan')
 GFI_model <- stan_model(file = 'GF2.stan')
 
 # an example：
-source('TPWD.R')
 source('GenData.R')
 
 set.seed(2414214)
